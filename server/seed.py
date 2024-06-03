@@ -9,6 +9,7 @@ with app.app_context():
     Review.query.delete()
     Item.query.delete()
 
+
     customer1 = Customer(name='Tal Yuri')
     customer2 = Customer(name='Raha Rosario')
     customer3 = Customer(name='Luca Mahan')
